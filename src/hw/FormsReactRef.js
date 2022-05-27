@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import LoginPass from '../components/LoginPass'
 
 const arrPositions = [
   {
@@ -77,6 +78,7 @@ class SumbitRef extends Component {
             ))}
           </select>
         </form>
+        <LoginPass />
       </>
     );
   }
